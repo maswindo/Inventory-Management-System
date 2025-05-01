@@ -1,69 +1,58 @@
-# Inventory Management System
+# Inventory Management System (2024)
 
-A fully automated inventory tracking and forecasting solution built in Google Sheets and Apps Script, developed to manage materials across 4 warehouses and over 30 service trucks. This system powers real-time material visibility, predictive restocking, and usage-based demand planning for a fast-growing pest control company.
+A modular, automated inventory tracking and procurement management system designed to streamline warehouse operations, purchasing, and data analysis. Built using Google Sheets, Google Apps Script, and Tableau.
 
----
-
-## 📦 What This System Does
-
-- **Tracks inventory levels** by warehouse and technician truck
-- **Logs all transfers** of material between warehouses and field staff
-- **Calculates reorder needs** based on minimum thresholds
-- **Forecasts demand** based on historical usage and seasonality
-- **Automates invoice updates** to adjust stock levels on arrival
-- **Standardizes materials and units** across various vendor formats
+This system is used in production at a fast-growing service company to automate invoice processing, track product pricing, generate order forms, and analyze company-wide spend trends.
 
 ---
 
-## 🧰 Tech Stack
+## 📦 Overview
 
-| Tool / Language       | Purpose                                           |
-|-----------------------|---------------------------------------------------|
-| **Google Sheets**     | Main inventory platform and data interface        |
-| **Google Apps Script**| Backend automation, logic, and syncing processes |
-| **Excel**             | Legacy modeling and forecasting templates         |
-| **Tableau**           | Visualization and trend dashboards (in progress) |
+This system consists of multiple integrated tools and scripts:
 
----
+- Automated Invoice Line-Item Parsing
+- Invoice Price Change Flagging
+- Order Form Generation and Warehouse Stock Tracking
+- Historical Spend and Usage Analysis
+- Predictive Reorder System (Planned)
 
-## 📁 Key Modules
-
-| Module              | Description                                                             |
-|---------------------|-------------------------------------------------------------------------|
-| `Database Sheet`    | Live record of all materials and their quantities per location          |
-| `Transfer Log`      | Logs all warehouse ⇄ truck movements and updates inventory accordingly  |
-| `Reorder Levels`    | Minimum thresholds per item and location                                |
-| `Clean On-Hand`     | Processes PestPac exports into standardized data                        |
-| `Invoice Input`     | Automatically updates stock levels from new shipment invoices           |
+Each module is maintained as its own repository and can be used individually or as part of the full system.
 
 ---
 
-## 🔄 Automation Highlights
+## 📚 Projects
 
-- ⚙️ **Apps Script Functions** to:
-  - Auto-update stock from invoice sheets
-  - Match item names across systems
-  - Trigger reorder alerts via conditional formatting
-- 📈 **Forecasting Logic** to:
-  - Use past months' transfer and usage data
-  - Flag spikes in product usage
-- 🔍 **Usage Tracker** that compares warehouse vs. truck movements to identify inconsistencies
-
----
-
-## 🧠 Why I Built This
-
-When I joined my company, inventory tracking was completely manual and error-prone. There was no reliable way to know how much stock we had, what materials were moving, or when to reorder. I designed this system from the ground up to solve those problems — and it now supports real-time inventory control for a company generating $17M+ annually.
+| Project | Description | Link |
+|---------|-------------|------|
+| **Invoice Line-Item Parser** | Parses new invoices into line items and logs for spend analysis. | [View Repository](#) |
+| **Invoice Price Change Flagging Tool** | Flags price increases, decreases, and new products before posting invoices. | [View Repository](#) |
+| **Order Form Generator** | Generates warehouse order forms and tracks on-hand stock and reorder status. | [View Repository](#) |
+| **Company-Wide Spend and Usage Analysis** | Analyzes historical company purchases to identify trends and vendor reliance. | [Coming Soon] |
+| **Predictive Reorder System** | Predicts future order needs based on seasonal usage trends. | [Planned] |
 
 ---
 
-## 🚧 In Progress
+## 🔧 Technologies
 
-- Adding barcode-ready version for scanner compatibility
-- Migrating forecasting engine from Excel to DuckDB
-- Embedding Tableau dashboards for executive insights
+- Google Sheets
+- Google Apps Script
+- Tableau (for historical analysis)
+- SQL / CSV-based spend analysis (Planned for future modules)
 
 ---
 
-📫 Contact me: [masonhotalingcs@gmail.com](mailto:masonhotalingcs@gmail.com)  
-🌐 Portfolio: [maswindo.github.io](https://maswindo.github.io)  
+## 🚧 Roadmap
+
+- Add UOM-aware price flagging to Price Change Tool
+- Complete Company-Wide Spend Analysis project
+- Integrate Predictive Reorder System using historical data and trends
+- (Optional) Build public-facing dashboards for summarized analytics
+
+---
+
+## 📬 Contact
+
+Created and maintained by Mason Hotaling  
+For inquiries or questions, please contact masonhotalingcs@gmail.com or view my [portfolio](#)https://maswindo.github.io/.
+
+---
