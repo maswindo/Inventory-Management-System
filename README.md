@@ -24,9 +24,9 @@ Each module is maintained as its own repository and can be used individually or 
 
 | Project | Description | Link |
 |---------|-------------|------|
-| **Invoice Line-Item Parser** | Parses new invoices into line items and logs for spend analysis. | [View Repository](#) |
-| **Invoice Price Change Flagging Tool** | Flags price increases, decreases, and new products before posting invoices. | [View Repository](#) |
-| **Order Form Generator** | Generates warehouse order forms and tracks on-hand stock and reorder status. | [View Repository](#) |
+| **Invoice Line-Item Parser** | Parses new invoices into line items and logs for spend analysis. | [View Repository](https://github.com/maswindo/inventory-invoice-line-item-parser) |
+| **Invoice Price Change Flagging Tool** | Flags price increases, decreases, and new products before posting invoices. | [View Repository](https://github.com/maswindo/inventory-price-change-flagging-tool) |
+| **Order Form Generator** | Generates warehouse order forms and tracks on-hand stock and reorder status. | [View Repository](https://github.com/maswindo/inventory-order-form-generator) |
 | **Company-Wide Spend and Usage Analysis** | Analyzes historical company purchases to identify trends and vendor reliance. | [Coming Soon] |
 | **Predictive Reorder System** | Predicts future order needs based on seasonal usage trends. | [Planned] |
 
