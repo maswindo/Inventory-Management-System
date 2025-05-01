@@ -53,6 +53,6 @@ Each module is maintained as its own repository and can be used individually or 
 ## 📬 Contact
 
 Created and maintained by Mason Hotaling  
-For inquiries or questions, please contact masonhotalingcs@gmail.com or view my [portfolio:](#) https://maswindo.github.io/.
+For inquiries or questions, please contact masonhotalingcs@gmail.com or view my [portfolio:https://maswindo.github.io/](#).
 
 ---
